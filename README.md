@@ -1,6 +1,6 @@
 # FSFilterDriver
 
-FSFilterDriver is a Windows file system driver which allows to block and unblock access to certain files at real-time. Blocking access on file system level allows to prevent any Windows service or application from opening a file for reading or writing even if they are owner of the file, running under Administrator rights or under "System" account. This could be useful for protecting sensitive files from undesired access and even for preventing Windows itself from changing certain files.
+FSFilterDriver is a Windows file system driver that allows you to block and unblock access to certain files in real-time. Blocking access at the file system level prevents any Windows service or application from opening a file for reading or writing, even if they are the owner of the file, running under Administrator rights, or under the "System" account. This can be useful for protecting sensitive files from unwanted access and even for preventing Windows itself from changing certain files.
 
 ## Key features
 * Driver has black and white lists of processes which can/cannot access blocked file
